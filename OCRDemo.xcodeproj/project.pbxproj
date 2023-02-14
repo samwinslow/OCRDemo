@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639C6F1440C48F618962701C /* Pods_OCRDemo_OCRDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635B24305275287034182F81 /* Pods_OCRDemo_OCRDemoUITests.framework */; };
 		A3F47ED22996E04900ED52E8 /* OCRDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F47ED12996E04900ED52E8 /* OCRDemoApp.swift */; };
 		A3F47ED42996E04900ED52E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F47ED32996E04900ED52E8 /* ContentView.swift */; };
 		A3F47ED62996E04A00ED52E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F47ED52996E04A00ED52E8 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		A3F47EE32996E04A00ED52E8 /* OCRDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F47EE22996E04A00ED52E8 /* OCRDemoTests.swift */; };
 		A3F47EED2996E04A00ED52E8 /* OCRDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F47EEC2996E04A00ED52E8 /* OCRDemoUITests.swift */; };
 		A3F47EEF2996E04A00ED52E8 /* OCRDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F47EEE2996E04A00ED52E8 /* OCRDemoUITestsLaunchTests.swift */; };
+		A8C0CEE7EC6544517599E2E2 /* Pods_OCRDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEAEC5351E76A1540221258 /* Pods_OCRDemo.framework */; };
+		DF6D488150F4137177EADE74 /* Pods_OCRDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D586E1885D4F730DE80BCF35 /* Pods_OCRDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D6506167DA7BCD5A303C452 /* Pods-OCRDemo-OCRDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemo-OCRDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F00F2228BDD094E94FB1C4 /* Pods-OCRDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemo.release.xcconfig"; path = "Target Support Files/Pods-OCRDemo/Pods-OCRDemo.release.xcconfig"; sourceTree = "<group>"; };
+		635B24305275287034182F81 /* Pods_OCRDemo_OCRDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRDemo_OCRDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEAEC5351E76A1540221258 /* Pods_OCRDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9502F8789A0B2680E54B649A /* Pods-OCRDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemoTests.release.xcconfig"; path = "Target Support Files/Pods-OCRDemoTests/Pods-OCRDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B66022DB78C42A1AEA2A465 /* Pods-OCRDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-OCRDemoTests/Pods-OCRDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0C32E4EFA7EB8EF7D51237 /* Pods-OCRDemo-OCRDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemo-OCRDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A3F47ECE2996E04900ED52E8 /* OCRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F47ED12996E04900ED52E8 /* OCRDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRDemoApp.swift; sourceTree = "<group>"; };
 		A3F47ED32996E04900ED52E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		A3F47EE82996E04A00ED52E8 /* OCRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F47EEC2996E04A00ED52E8 /* OCRDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRDemoUITests.swift; sourceTree = "<group>"; };
 		A3F47EEE2996E04A00ED52E8 /* OCRDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D586E1885D4F730DE80BCF35 /* Pods_OCRDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C54966004009BA515F505 /* Pods-OCRDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCRDemo/Pods-OCRDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C0CEE7EC6544517599E2E2 /* Pods_OCRDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6D488150F4137177EADE74 /* Pods_OCRDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639C6F1440C48F618962701C /* Pods_OCRDemo_OCRDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		926C64A1B0040D83FDB6EA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEAEC5351E76A1540221258 /* Pods_OCRDemo.framework */,
+				635B24305275287034182F81 /* Pods_OCRDemo_OCRDemoUITests.framework */,
+				D586E1885D4F730DE80BCF35 /* Pods_OCRDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3F47EC52996E04900ED52E8 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,8 @@
 				A3F47EE12996E04A00ED52E8 /* OCRDemoTests */,
 				A3F47EEB2996E04A00ED52E8 /* OCRDemoUITests */,
 				A3F47ECF2996E04900ED52E8 /* Products */,
+				E151881A9D567A260F1CDC57 /* Pods */,
+				926C64A1B0040D83FDB6EA78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = OCRDemoUITests;
 			sourceTree = "<group>";
 		};
+		E151881A9D567A260F1CDC57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07C54966004009BA515F505 /* Pods-OCRDemo.debug.xcconfig */,
+				58F00F2228BDD094E94FB1C4 /* Pods-OCRDemo.release.xcconfig */,
+				4D6506167DA7BCD5A303C452 /* Pods-OCRDemo-OCRDemoUITests.debug.xcconfig */,
+				9E0C32E4EFA7EB8EF7D51237 /* Pods-OCRDemo-OCRDemoUITests.release.xcconfig */,
+				9B66022DB78C42A1AEA2A465 /* Pods-OCRDemoTests.debug.xcconfig */,
+				9502F8789A0B2680E54B649A /* Pods-OCRDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3F47EF22996E04A00ED52E8 /* Build configuration list for PBXNativeTarget "OCRDemo" */;
 			buildPhases = (
+				E511C6A7DF6F8AF5D1DE383C /* [CP] Check Pods Manifest.lock */,
 				A3F47ECA2996E04900ED52E8 /* Sources */,
 				A3F47ECB2996E04900ED52E8 /* Frameworks */,
 				A3F47ECC2996E04900ED52E8 /* Resources */,
+				79393331DC09D89780FD1DB9 /* [CP] Embed Pods Frameworks */,
+				F7C8C99B66C33BE7B08CF74E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3F47EF52996E04A00ED52E8 /* Build configuration list for PBXNativeTarget "OCRDemoTests" */;
 			buildPhases = (
+				9761EEBD5D15FEAE46557076 /* [CP] Check Pods Manifest.lock */,
 				A3F47EDA2996E04A00ED52E8 /* Sources */,
 				A3F47EDB2996E04A00ED52E8 /* Frameworks */,
 				A3F47EDC2996E04A00ED52E8 /* Resources */,
@@ -169,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3F47EF82996E04A00ED52E8 /* Build configuration list for PBXNativeTarget "OCRDemoUITests" */;
 			buildPhases = (
+				FB0DCC59F11B951DCDEBDBEA /* [CP] Check Pods Manifest.lock */,
 				A3F47EE42996E04A00ED52E8 /* Sources */,
 				A3F47EE52996E04A00ED52E8 /* Frameworks */,
 				A3F47EE62996E04A00ED52E8 /* Resources */,
+				E18315726408954EE0D711A9 /* [CP] Embed Pods Frameworks */,
+				637DB3B0813424A401DBA2A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +299,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		637DB3B0813424A401DBA2A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79393331DC09D89780FD1DB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9761EEBD5D15FEAE46557076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18315726408954EE0D711A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRDemo-OCRDemoUITests/Pods-OCRDemo-OCRDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E511C6A7DF6F8AF5D1DE383C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C8C99B66C33BE7B08CF74E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRDemo/Pods-OCRDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0DCC59F11B951DCDEBDBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRDemo-OCRDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3F47ECA2996E04900ED52E8 /* Sources */ = {
@@ -411,6 +596,7 @@
 		};
 		A3F47EF32996E04A00ED52E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07C54966004009BA515F505 /* Pods-OCRDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +626,7 @@
 		};
 		A3F47EF42996E04A00ED52E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F00F2228BDD094E94FB1C4 /* Pods-OCRDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +656,7 @@
 		};
 		A3F47EF62996E04A00ED52E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B66022DB78C42A1AEA2A465 /* Pods-OCRDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +677,7 @@
 		};
 		A3F47EF72996E04A00ED52E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9502F8789A0B2680E54B649A /* Pods-OCRDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +698,7 @@
 		};
 		A3F47EF92996E04A00ED52E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6506167DA7BCD5A303C452 /* Pods-OCRDemo-OCRDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +717,7 @@
 		};
 		A3F47EFA2996E04A00ED52E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0C32E4EFA7EB8EF7D51237 /* Pods-OCRDemo-OCRDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
